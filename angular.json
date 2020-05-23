@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shophop"
+    }
+  },
+  "defaultProject": "shophop",
+  "cli": {
+    "analytics": "e355393f-fbf7-4849-8668-aa705685c182"
+  }
 }
