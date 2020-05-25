@@ -10,11 +10,17 @@ import {MaterialModule} from './material/material-module';
 import {ReactiveFormsModule} from '@angular/forms';
 import {HTTP_INTERCEPTORS, HttpClientModule, HttpHeaders} from '@angular/common/http';
 import {HttpInterceptorService} from './commonservices/http-interceptor.service';
+import { DashboardMasterComponent } from './dashboard/dashboard-master/dashboard-master.component';
+import { NavigationMasterComponent } from './navigation/navigation-master/navigation-master.component';
+import { ProductMasterComponent } from './Product/product-master/product-master.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthenticationMasterComponent
+    AuthenticationMasterComponent,
+    DashboardMasterComponent,
+    NavigationMasterComponent,
+    ProductMasterComponent
   ],
   imports: [
     BrowserModule,

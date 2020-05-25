@@ -40,7 +40,7 @@ export class AuthenticationMasterComponent implements OnInit {
     this.authenticationService.getUser(this.user.username, this.user.password)
       .subscribe(data => {
           if (data != null){
-            this.router.navigate(['app-dashboard']);
+            this.router.navigate(['app-dashboard-master']);
           }
         }
         , error =>  this.snackBar.open('Username Or Password is Incorrect'));
